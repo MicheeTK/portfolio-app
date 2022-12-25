@@ -1,0 +1,114 @@
+[33mcommit 242c591f5bdca938a2d47b1c235f6a6a643850f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Michee_Tokatoka <tokatokakiyombo@gmail.com>
+Date:   Sat Dec 24 22:26:27 2022 +0200
+
+    portfolio code copied from code written via mobile phone using spck code editor
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aecbf7d[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,39 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="UTF-8">[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m  <meta http-equiv="X-UA-Compatible" content="ie=edge">[m
+[32m+[m[32m  <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m  <title>MichéeTK bio</title>[m
+[32m+[m[32m  <script src="https://unpkg.com/feather-icons"></script>[m
+[32m+[m[41m  [m
+[32m+[m[32m  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>[m
+[32m+[m[41m  [m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <img src="https://media.licdn.com/dms/image/C4D03AQGJw_TErnO3wQ/profile-displayphoto-shrink_400_400/0/1583675539554?e=1676505600&v=beta&t=_tPB53XjF4GZQyDK8kPd3Eeuk5R2vD-YADaUinB9DFI" alt="profile pic" class="profile-pic">[m
+[32m+[m[32m  <h3 class="profile-pic-caption">Michée Kiyombo Tokatoka </h3>[m
+[32m+[m[32m  <p>In love with STEM. Aspiring to join a tech-centric sustainable business that contribute as much as possible to the improvement of humanity through Science. Meanwhile, I am learning as many cutting edge technologies as I possibly can to help concretise my aspirations.</p>[m
+[32m+[m[32m  <p>Currently working as an electrical and automation technician at <a href="https://www.tfdesign.co.za" target="_blank">TFDesign</a>. An Engineering company that focuses on solving Mechanical and electrical automation problems in the industrial arena.</p>[m
+[32m+[m[41m  [m
+[32m+[m[32m  <div class="icons">[m
+[32m+[m[32m    <p>Please visit the following accounts for in depth career related information: </p>[m
+[32m+[m[32m    <a href="https://www.linkedin.com/in/michee-tokatoka-b5024055/" target="_blank"><i data-feather="linkedin"></i></a>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <a href="https://codepen.io/MicheeTK" target="_blank"><i data-feather="codepen"></i></a>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <a href="https://github.com/MicheeTK" target="_blank"><i data-feather="github"></i></a>[m
+[32m+[m[41m    [m
+[32m+[m[32m   <a href="https://www.codewars.com/users/MicheeTK/completed_solutions" target="_blank"><iconify-icon icon="simple-icons:codewars"></iconify-icon></a>[m
+[32m+[m[32m </div>[m
+[32m+[m
+[32m+[m[32m <a href="mailto:tokatokakiyombo@gmail.com" class="btn" target="_blank">Email me</a>[m
+[32m+[m[41m [m
+[32m+[m[32m <a href="https://wa.me/27610655497" class="btn" target="_blank">Whatsapp me</a>[m
+[32m+[m
+[32m+[m[32m    <script>[m
+[32m+[m[32m      feather.replace()[m
+[32m+[m[32m    </script>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1402bb2[m
+[1m--- /dev/null[m
+[1m+++ b/style.css[m
+[36m@@ -0,0 +1,55 @@[m
+[32m+[m[32m*{[m
+[32m+[m[32m  margin:0;[m
+[32m+[m[32m  padding:0;[m
+[32m+[m[32m  box-sizing: border-box;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  body {[m
+[32m+[m[32m      font-size: 18px;[m
+[32m+[m[32m      color: white;[m
+[32m+[m[32m      background: #7D6B91;[m
+[32m+[m[32m      text-align: center;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  p {[m
+[32m+[m[32m    padding: 15px;[m
+[32m+[m[32m    text-align:justify;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .icons>p{[m
+[32m+[m[32m    text-align:center;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  a {[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    color: #87C1FF;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .profile-pic {[m
+[32m+[m[32m    width: 50%;[m
+[32m+[m[32m    border-radius: 50%;[m
+[32m+[m[32m    margin-block: 15px;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .profile-pic-caption {[m
+[32m+[m[32m    margin-bottom: 15px;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .icons {[m
+[32m+[m[32m    margin:10px;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .icons a {[m
+[32m+[m[32m    color:white;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[32m  .btn {[m
+[32m+[m[32m    display:block;[m
+[32m+[m[32m    color:black;[m
+[32m+[m[32m    background:white;[m
+[32m+[m[32m    padding:30px;[m
+[32m+[m[32m    margin:16px;[m
+[32m+[m[32m    border:solid 1px white;[m
+[32m+[m[32m    border-radius:5px;[m
+[32m+[m[32m    box-shadow: 5px 5px lightblue;[m
+[32m+[m[32m  }[m
+\ No newline at end of file[m

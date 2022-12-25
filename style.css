@@ -1,55 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root{
+  font-size: 62.5%;
+}
+
 *{
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  }
-  
-  body {
-      font-size: 18px;
-      color: white;
-      background: #7D6B91;
-      text-align: center;
-  }
-  
-  p {
-    padding: 15px;
-    text-align:justify;
-  }
-  
-  .icons>p{
-    text-align:center;
-  }
-  
-  a {
+}
+
+body{
+  font: 1.6rem 'Poppins', sans-serif;
+  line-height: 1.4;
+  color: white;
+  background: #7D6B91;
+  text-align: center;
+}
+
+/* Start vCard base program */
+p {
+  padding: 15px;
+  text-align:justify;
+}
+
+.icons>p{
+  text-align:center;
+}
+
+a {
+  text-decoration: none;
+  color: #87C1FF;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#profile-pic {
+  width: 15%;
+  border-radius: 50%;
+  margin-block: 15px;
+}
+
+#profile-pic:hover {
+  cursor: pointer;
+}
+
+
+.profile-pic-caption {
+  margin-bottom: 15px;
+}
+
+.icons a {
+  margin:10px;
+  color:white;
+}
+
+.icons a:hover {
+  color: #87C1FF;
+}
+
+.btn {
+  display:block;
+  color:black;
+  background:white;
+  padding:30px;
+  margin:16px;
+  border-radius:5px;
+  box-shadow: 5px 5px lightblue;
+}
+
+.btn:hover {
+    background: lightskyblue;
+    font-weight: 800;
     text-decoration: none;
-    color: #87C1FF;
-  }
-  
-  .profile-pic {
-    width: 50%;
-    border-radius: 50%;
-    margin-block: 15px;
-  }
-  
-  .profile-pic-caption {
-    margin-bottom: 15px;
-  }
-  
-  .icons {
-    margin:10px;
-  }
-  
-  .icons a {
-    color:white;
-  }
-  
-  .btn {
-    display:block;
-    color:black;
-    background:white;
-    padding:30px;
-    margin:16px;
-    border:solid 1px white;
-    border-radius:5px;
-    box-shadow: 5px 5px lightblue;
-  }
+    transition: 0.2s;
+}
+/* End vCard base program */
+
+/*Start Adding profile-pic modal to the base program*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+
+#prof-pic-modal img {
+  display: flex;
+  margin: auto;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+#prof-pic-modal-close-btn {
+  color: #ccc;
+  font-size: 40px;
+  order:2;
+  margin-right: 15px;
+ 
+}
+
+#prof-pic-modal-close-btn:hover,#prof-pic-modal-close-btn:focus{
+  color: #000;
+  cursor: pointer;
+}
+/*End adding profile-pic modal to the base program*/
