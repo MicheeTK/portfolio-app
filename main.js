@@ -5,14 +5,14 @@ let profPicModalCloseBtn = document.getElementById("prof-pic-modal-close-btn");
 
 profilePic.addEventListener("click", openModal);
 profPicModalCloseBtn.addEventListener("click", closeModal);
-window.addEventListener("click",outsideClick);
+window.addEventListener("click", outsideClick);
 
-function openModal(){
-    modal.style.display = "flex";
+function openModal() {
+  modal.style.display = "flex";
 }
 
-function closeModal(){
-    modal.style.display = "none";
+function closeModal() {
+  modal.style.display = "none";
 }
 
 //Uncommenting the folowwing function will allow to close the modal by clicking
