@@ -10,22 +10,24 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper-container {
   font: 1.6rem "Poppins", sans-serif;
   line-height: 1.4;
   color: white;
   background: #444654;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 /* Start vCard base program */
 p {
-  padding: 1.5rem;
+  padding: 0 2rem 0.8rem;
   text-align: justify;
 }
 
 .icons > p {
   text-align: center;
+  margin-block: 15px;
 }
 
 a {
@@ -41,7 +43,7 @@ a:hover {
 #profile-pic {
   width: 15%;
   border-radius: 50%;
-  margin-block: 15px;
+  margin-block: 1.5rem;
   position: relative;
 }
 
@@ -51,10 +53,15 @@ a:hover {
 
 .profile-pic-caption {
   margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.icons {
+  padding-bottom: 1rem;
 }
 
 .icons a {
-  margin: 1rem;
+  margin: 1.5rem;
   color: white;
 }
 
@@ -117,9 +124,7 @@ a:hover {
 /*Start Adding cover picture*/
 
 #cover-pic {
-  /* background-image: url(""); */
   color: black;
-  /* background-repeat: no-repeat; */
   background-color: whitesmoke;
   position: absolute;
   width: 100%;

@@ -5,52 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/STEM.jpg" />
     <title>MichéeTK bio</title>
     <script src="https://unpkg.com/feather-icons"></script>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
   </head>
   <body>
-    <!-- Start vCard base program -->
-    <div id="cover-pic"></div>
-    <img src="./assets/michee-pic.jpg" alt="profile pic" id="profile-pic" />
-    <h3 class="profile-pic-caption">Michée Kiyombo Tokatoka</h3>
-    <p>
-      In love with STEM. Aspiring to join a tech-centric sustainable business that contributes as much as possible to the improvement of humanity through
-      Science. Meanwhile, I am learning as many cutting edge technologies as I possibly can to help concretise my aspirations.
-    </p>
-    <p>
-      Currently working as an electrical and automation technician at <a href="https://www.tfdesign.co.za" target="_blank">TFDesign</a>. An Engineering company
-      that focuses on solving Mechanical and electrical automation problems in the industrial arena.
-    </p>
+    <div class="wrapper-container">
+      <!-- Start vCard base program -->
+      <div id="cover-pic"></div>
+      <img src="./assets/michee-pic.jpg" alt="profile pic" id="profile-pic" />
+      <h3 class="profile-pic-caption">Michée Kiyombo Tokatoka</h3>
+      <p>
+        In love with STEM. Aspiring to join a tech-centric sustainable business that contributes as much as possible to the improvement of humanity through
+        Science. Meanwhile, I am learning as many cutting edge technologies as I possibly can to help concretise my aspirations.
+      </p>
+      <p>
+        Currently working as an electrical and automation Technician at <a href="https://www.tfdesign.co.za" target="_blank"> <b>TFDesign</b></a
+        >, an Engineering company that focuses on solving mechanical and electrical automation problems in the industrial arena.
+      </p>
 
-    <div class="icons">
-      <p>Please visit the following accounts for in depth career related information:</p>
-      <a href="https://www.linkedin.com/in/michee-tokatoka-b5024055/" target="_blank"><i data-feather="linkedin"></i></a>
+      <p>In my seven years of employment at TFDesign, I've work on over thirty projects under the supervision of three main Project Managers.</p>
+      <p>
+        I've worked on boilers and kilns projects under the leadership of
+        <a href="https://www.linkedin.com/in/ryan-wyngaard-b79734103/" target="_blank"> <b>Ryan Wyngaard</b></a
+        >. In the renewable energy space, I worked under the leadership of
+        <a href="https://www.linkedin.com/in/gerhard-louw-5a976558/" target="_blank"> <b>Gerhard Louw</b></a
+        >. And in the R&D related projects, I worked under the leadership of
+        <a href="https://www.linkedin.com/in/hendrik-johannes-van-der-nest-6b020575/" target="_blank"> <b>Hennie van der Nest</b> </a>. I do hope and believe
+        that they have a good memory of me as an individual and as a professional.
+      </p>
 
-      <a href="https://codepen.io/MicheeTK" target="_blank"><i data-feather="codepen"></i></a>
+      <div class="icons">
+        <p><em>Please visit the following accounts for in depth technical information:</em></p>
 
-      <a href="https://github.com/MicheeTK" target="_blank"><i data-feather="github"></i></a>
+        <a href="https://github.com/MicheeTK" target="_blank"><i data-feather="github"></i></a>
 
-      <a href="https://www.codewars.com/users/MicheeTK/completed_solutions" target="_blank"><iconify-icon icon="simple-icons:codewars"></iconify-icon></a>
+        <a href="https://www.linkedin.com/in/michee-tokatoka-b5024055/" target="_blank"><i data-feather="linkedin"></i></a>
+
+        <a href="https://codepen.io/MicheeTK" target="_blank"><i data-feather="codepen"></i></a>
+
+        <a href="https://www.codewars.com/users/MicheeTK/completed_solutions" target="_blank"><iconify-icon icon="simple-icons:codewars"></iconify-icon></a>
+      </div>
+
+      <a href="mailto:tokatokakiyombo@gmail.com" class="btn" target="_blank"> Please email me for further information</a>
+
+      <a href="https://wa.me/27610655497" class="btn" target="_blank">Please whatsapp me for a chat</a>
+      <script>
+        feather.replace();
+      </script>
+      <!-- End vCard base program -->
+      <!-- Start adding profile-pic modal to the base program -->
+
+      <div id="prof-pic-modal" class="modal">
+        <span id="prof-pic-modal-close-btn">&times;</span>
+        <img src="./assets/michee-pic.jpg" alt="profile pic" />
+      </div>
+      <!-- Start adding profile-pic modal to the base program -->
+
+      <script src="main.js"></script>
     </div>
-
-    <a href="mailto:tokatokakiyombo@gmail.com" class="btn" target="_blank">Email me</a>
-
-    <a href="https://wa.me/27610655497" class="btn" target="_blank">Whatsapp me</a>
-    <script>
-      feather.replace();
-    </script>
-    <!-- End vCard base program -->
-    <!-- Start adding profile-pic modal to the base program -->
-
-    <div id="prof-pic-modal" class="modal">
-      <span id="prof-pic-modal-close-btn">&times;</span>
-      <img src="./assets/michee-pic.jpg" alt="profile pic" />
-    </div>
-    <!-- Start adding profile-pic modal to the base program -->
-
-    <script src="main.js"></script>
   </body>
 </html>
-vCard/index.html
